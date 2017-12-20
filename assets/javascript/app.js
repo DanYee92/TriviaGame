@@ -31,7 +31,7 @@ var	questions= [
 	correctAnswer: "Krypton"},
 
 	{question: "Which villain possessed the Infinity Gauntlet?",
-	answers: ["Thanos", "Galactus", "Galactus", "Darkseid"],
+	answers: ["Thanos", "Galactus", "Doomsday", "Darkseid"],
 	correctAnswer: "Thanos"}
 ];
 
