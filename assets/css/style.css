@@ -1,0 +1,39 @@
+body {
+    background-image: url("http://www.hdwallpapersfreedownload.com/uploads/large/super-heroes/marvel-dc-comic-images-siper-heroes.jpg");
+    background-position: center center;
+    background-attachment:fixed;
+    background-size: cover;
+
+}
+p {
+	padding-top: 50px;
+	font-size: 80px;
+	font-family: 'Luckiest Guy', cursive;
+	color: red;
+}
+button {
+	text-shadow: 3px 3px 3px #000;
+}
+.spacing {
+	margin: 25px 100px 0px 100px;
+}
+
+
+.container {
+	text-align: center;
+	color: red;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+.spacing {
+	padding: 25px;
+}
+
+.trans {
+	background:#7f7f7f;
+  	background:rgba(0,0,0,0.5);
+  	border-radius: 50px;
+
+}

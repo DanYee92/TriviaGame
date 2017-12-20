@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Marvel & DC Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+			 <div class="container">
+
+
+
+			      <div class="col-md-12">
+
+			    	<div class="panel-body">
+
+              <p>Marvel & DC Trivia</p>
+            	<!--Timer countdown-->
+            <div class="trans">
+            	<div class="timeLeft"> <h3><span id="count">60</span> seconds left</h3></div>
+            	<br>
+
+            		<h3 id="question"></h3>
+            		<h3 id="resultView"></h3>
+            		<h3 id="answers"></h3>
+
+
+            	<!--Buttons-->
+            	<button type="button" id="startClock" class="btn btn-primary btn-lg gameStart">Start Game</button>
+
+            	<br>
+            	<button type="button" id="submitResult" class="btn btn-primary btn-lg next">Submit</button>
+
+            	<!--End Game-->
+            	<div class="endGame">
+            	<h2> Your Results:</h2>
+            	<h2 id="correctGuesses">Correctly Answered: </h2>
+            	<h2>Out of 5 Questions!</h2>
+            	</div>
+
+
+            	</div>
+            </div>
+            </div>
+
+
+
+
+
+
+            </body>
+            </html>
