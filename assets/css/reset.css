@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -24,8 +24,19 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    background-image: url("http://www.hdwallpapersfreedownload.com/uploads/large/super-heroes/marvel-dc-comic-images-siper-heroes.jpg");
+    background-position: center center;
+    background-attachment:fixed;
+    background-size: cover;
+
 }
+p {
+	padding-top: 50px;
+	font-size: 80px;
+	font-family: 'Luckiest Guy', cursive;
+	color: red;
+}
+
 ol, ul {
 	list-style: none;
 }
